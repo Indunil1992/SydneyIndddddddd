@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c2caeb3c-2723-479a-aee8-2b4b9363b81d": {
+        "id": "c2caeb3c-2723-479a-aee8-2b4b9363b81d",
+        "parent": null,
+        "name": "SydneyIndddddddd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "73969664-867a-44c5-81b0-f4e63a576fbb"
+        ],
+        "isRemovable": false,
+        "filePath": "SydneyIndddddddd"
+      },
+      "73969664-867a-44c5-81b0-f4e63a576fbb": {
+        "id": "73969664-867a-44c5-81b0-f4e63a576fbb",
+        "parent": "c2caeb3c-2723-479a-aee8-2b4b9363b81d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SydneyIndddddddd/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully Sydney  executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast2jiommiany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "c2caeb3c-2723-479a-aee8-2b4b9363b81d",
+    "openFiles": [
+      "73969664-867a-44c5-81b0-f4e63a576fbb"
+    ],
+    "currentFileId": "73969664-867a-44c5-81b0-f4e63a576fbb",
+    "resources": {
+      "apigapSoutheast2jiommiany": {
+        "name": "apigapSoutheast2jiommiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-2",
+          "apiMode": 0,
+          "apiName": "jiom",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "m/i",
+          "resourcePath": "/m/i",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SydneyIndddddddd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568110509472
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SydneyIndddddddd",
+      "url": "https://github.com/Indunil1992/SydneyIndddddddd"
+    }
+  }
+}
